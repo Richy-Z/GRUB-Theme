@@ -62,6 +62,6 @@ fi
 
 # update-grub
 echo "Running update-grub"
-update-grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 echo "OK"
