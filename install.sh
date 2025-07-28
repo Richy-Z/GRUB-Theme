@@ -60,8 +60,9 @@ else
   echo "GRUB_THEME=\"$THEME_TXT\"" >> /etc/default/grub
 fi
 
-# update-grub
-echo "Running update-grub"
+# Uopdate grub configuration
+echo "Updating grub configuration.."
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-echo "OK"
+echo "OK - Finished!"
+echo "Enjoy your theme!!"
