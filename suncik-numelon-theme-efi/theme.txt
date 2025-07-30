@@ -9,12 +9,12 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + image {
-  file = "thinkpad_logo.png"
+  file = "sunc.png"
   top = 30
   left = 30
 }
 + image {
-  file = "lenovo_logo.png"
+  file = "numelon.png"
   top = 30
   left = 100%-211
 }

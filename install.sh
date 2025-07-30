@@ -34,7 +34,7 @@ done
 
 # Back up files to be modified
 echo ""
-if [[ ! -f /etc/default/grub.lenovoefi.bak ]]
+if [[ ! -f /etc/default/grub.sunciknumelon.bak ]]
 then
   echo "Backing up /etc/default/grub"
   cp -an /etc/default/grub /etc/default/grub.sunciknumelon.bak
@@ -60,7 +60,6 @@ else
   echo "GRUB_THEME=\"$THEME_TXT\"" >> /etc/default/grub
 fi
 
-# Uopdate grub configuration
 echo "Updating grub configuration.."
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
